@@ -1,0 +1,48 @@
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+
+body {
+    font-size: 12px;
+    font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #667766;
+}
+
+.page {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+    min-height: 100vh;
+    background-color: #d8f0d8;
+}
+.content {
+    padding: 20px;
+}
+
+span.output {
+    background-color: #aaffaa;
+    border-radius: 2px;
+    border: 1px solid #66aa66;
+    font-style: italic;
+    color: #339933;
+    padding-left: 3px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}

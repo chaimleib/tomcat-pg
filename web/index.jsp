@@ -6,11 +6,20 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Dynamic Content</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css"/>
   </head>
   <body>
-  $END$
+  <div class="page">
+    <div class="content">
+      <h1>Doing some math...</h1>
+      <p>
+        1 + 1 = <span class="output"><%= 1 + 1 %></span>
+      </p>
+    </div>
+  </div>
   </body>
 </html>
