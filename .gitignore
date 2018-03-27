@@ -1,4 +1,8 @@
 .DS_Store
 *.swp
+
+# IntelliJ stuff
 .idea/
 target/
+tomcat-pg.iml
+
