@@ -19,6 +19,17 @@
       <p>
         1 + 1 = <span class="output"><%= 1 + 1 %></span>
       </p>
+
+      <h1>Versions</h1>
+      <table>
+        <thead><tr>
+          <th>Package</th>
+          <th>Version</th>
+        </tr></thead>
+        <tbody>
+          <tr><td>Servlet</td><td>${servletVersion}</td></tr>
+        </tbody>
+      </table>
     </div>
   </div>
   </body>
